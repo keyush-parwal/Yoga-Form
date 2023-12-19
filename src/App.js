@@ -45,7 +45,7 @@ function App() {
     const user = { name, age, batch, payment };
  
     try {
-      const response = await axios.post('https://yoga-server-c1i45f2sg-keyush-parwals-projects.vercel.app/api/admission', user);
+      const response = await axios.post('https://yoga-server-bb2a0jebg-keyush-parwals-projects.vercel.app/api/admission', user);
       console.log(response.data);
  
       // Assume CompletePayment() is a function that takes user details and payment amount and returns a promise
